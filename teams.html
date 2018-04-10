@@ -75,9 +75,7 @@ html {
     transition: 0.1s;
 }
 
-.active, .accordion:hover {
-    background-color: #008975;
-}
+
 
 .accordion:after {
     content: '\002B';
@@ -102,8 +100,8 @@ html {
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" style="background-color: black;">
-<div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <div class="container">
         <a class="navbar-brand" href="#">V-Shesh</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -114,14 +112,20 @@ html {
            <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-
+			<li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+           
             <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team</a>
 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Recognition</a>
           <a class="dropdown-item" href="teams.html">Team</a>
           <a class="dropdown-item" href="#">Team Alumini</a>
         </div>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact Us</a>
             </li>
           </ul>
         </div>
